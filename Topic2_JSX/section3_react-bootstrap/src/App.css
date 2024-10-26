@@ -1,3 +1,17 @@
-.col, .col-sm-2, .col-sm-10, .col-md-4{
-    border: 1px solid green;
+#header, #main, #footer{
+    border: 1px solid gray;
 }
+
+#main{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#main .col-md-3, #main .col-sm-4 {
+    margin-bottom: 10px;
+}
+
+#footer .col-md-4{
+    border: 1px solid gray;
+}
+

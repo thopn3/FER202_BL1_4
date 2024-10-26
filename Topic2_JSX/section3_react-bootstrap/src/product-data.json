@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "name": "Product 1",
+        "description": "t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "images": [
+            "p11.webp",
+            "p12.png"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Product 2",
+        "description": "t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "images": [
+            "p21.jpg",
+            "p22.png",
+            "p23.png"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Product 3",
+        "description": "t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "images": [
+            "p31.webp"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Product 4",
+        "description": "t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "images": [
+            "p41.jpg",
+            "p42.png"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Product 5",
+        "description": "t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+        "images": [
+            "p51.jpg"
+        ]
+    }
+]

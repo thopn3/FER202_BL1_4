@@ -17,7 +17,7 @@ function App() {
       {/* <ClsComponent address="Nguyen Tuan, Thanh Xuan"
                     city="HaNoi"/> */}
 
-      <FetchAPI todoData={todosData} />
+      <FetchAPI todoData={todosData.todos} users={todosData.users}/>
 
       {/* Sử dụng component đã có state */}
       {/* <ClsState/> */}

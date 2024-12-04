@@ -29,7 +29,7 @@ function Login(){
         const existUser = users?.find(u => u.user == username && u.pass == password);
         if(existUser){
             // Lưu thông tin vào localStorage
-            localStorage.setItem("account", JSON.stringify({uId:existUser.uId, username: existUser.user}));
+            localStorage.setItem("account", JSON.stringify({id:existUser.id, username: existUser.user}));
             // Nếu tồn tại người dùng này thì điều hướng sang Job component
             navigate("/jobs");
         }else{

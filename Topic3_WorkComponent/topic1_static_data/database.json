@@ -1,19 +1,19 @@
 {
     "users": [
         {
-            "uId": 1,
+            "id": 1,
             "user": "user1",
             "pass": "abc@123"
         },
         {
-            "uId": 2,
+            "id": 2,
             "user": "user2",
             "pass": "abc@123"
         }
     ],
     "jobs": [
         {
-            "jId": 1,
+            "id": 1,
             "title": "Job 1",
             "cId": 1,
             "uId": 1,
@@ -25,7 +25,7 @@
             ]
         },
         {
-            "jId": 2,
+            "id": 2,
             "title": "Job 2",
             "cId": 2,
             "uId": 1,
@@ -36,7 +36,7 @@
             ]
         },
         {
-            "jId": 3,
+            "id": 3,
             "title": "Job 3",
             "cId": 1,
             "uId": 2,
@@ -45,10 +45,31 @@
                 {"iId": 1, "title": "Issue 1", "start": "2024/12/03", "end": "2024/12/03", "status": true},
                 {"iId": 2, "title": "Issue 2", "start": "2024/12/03", "end": "2024/12/04", "status": false}
             ]
+        },{
+            "id": 4,
+            "title": "Homework",
+            "cId": 2,
+            "uId": 1,
+            "status": true,
+            "issues": [
+                {"iId": 1, "title": "Issue 1", "start": "2024/12/03", "end": "2024/12/03", "status": true},
+                {"iId": 2, "title": "Issue 2", "start": "2024/12/03", "end": "2024/12/04", "status": true}
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Play football",
+            "cId": 2,
+            "uId": 1,
+            "status": false,
+            "issues": [
+                {"iId": 1, "title": "Issue 1", "start": "2024/12/03", "end": "2024/12/03", "status": true},
+                {"iId": 2, "title": "Issue 2", "start": "2024/12/03", "end": "2024/12/04", "status": false}
+            ]
         }
     ],
     "categories": [
-        {"cId": 1, "name": "Category 1"},
-        {"cId": 2, "name": "Category 2"}
+        {"id": 1, "name": "Category 1"},
+        {"id": 2, "name": "Category 2"}
     ]
 }
